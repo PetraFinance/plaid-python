@@ -2,16 +2,16 @@ from setuptools import setup, find_packages
 import plaid
 
 
-url = 'https://github.com/plaid/plaid-python'
+url = 'https://github.com/PetraFinance/plaid-python'
 
 setup(
-    name='plaid-python',
+    name='petra-plaid-python',
     version=plaid.__version__,
-    description='Simple Python API client for Plaid',
+    description='Simple Python API client for Plaid -- modified by Petra',
     long_description='',
     keywords='api, client, plaid',
-    author='Chris Forrette',
-    author_email='chris@chrisforrette.com',
+    author='Arlan Jaska',
+    author_email='ajaska@trypetra.com',
     url=url,
     download_url='{}/tarball/v{}'.format(url, plaid.__version__),
     license='MIT',
